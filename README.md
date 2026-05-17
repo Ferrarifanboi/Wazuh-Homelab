@@ -49,7 +49,7 @@ File is automatically deleted + alert appears in Wazuh dashboard
 In the agent's `ossec.conf`, configure which directories to watch:
 ```xml
 <syscheck>
-  <directories realtime="yes">/root/snap/malware</directories>
+  <directories realtime="yes" checkall="yes">/root/snap/malware</directories>
 </syscheck>
 ```
 
